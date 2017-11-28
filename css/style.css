@@ -1,0 +1,96 @@
+/** Définition des polices d'écriture **/
+
+@font-face {
+    font-family: 'blacklist';
+    src: url('../font/OldNewspaperTypes.ttf');
+}
+
+@font-face {
+	font-family: 'typewriter';
+	src: url('../font/typewcond_regular.otf');
+}
+
+body {
+	font-family: 'typewriter';
+	display: flex;
+	justify-content: center;
+}
+
+#corps{
+	width: 90%;
+}
+
+/** Définition du header du site **/
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+header>div {
+	padding: 10px;
+	width: 30%;
+	border-right: 3px solid black;
+}
+
+.article:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+header div:last-child {
+	border-right: none;
+}
+
+/** Gestion des titres **/
+
+h1, h2, h3 {
+	font-family: 'blacklist';
+}
+
+h1 {
+	color: #FFFFFF;
+	width: 100%;
+	text-align: center;
+	font-size: 75px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	background-color: rgb(31, 95, 198);
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+}
+
+#main {
+	width: 100%;
+	display: flex;
+}
+
+#mainArticle {
+	flex-grow: 2;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#mainArticle>div {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+#sideMenu {
+	min-width: 20%;
+	border-left: 2px solid black
+}
+
+#sideMenu>div {
+	padding: 10px;
+	border-bottom: 2px solid black;
+}
+
+#sideMenu div:last-child {
+	border-bottom: none;
+}
