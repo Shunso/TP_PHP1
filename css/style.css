@@ -20,6 +20,11 @@ body {
 	width: 90%;
 }
 
+#connexion {
+	width: 100%;
+	background-color: gray;
+	height: 50px;
+}
 /** Définition du header du site **/
 
 header {

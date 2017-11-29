@@ -7,6 +7,8 @@
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
+		<!--<div id="connexion">
+		</div>-->
 		<div id="corps">
 			<header>
 				<div class="article">
@@ -22,20 +24,38 @@
 					</p>
 				</div>
 				<div>
-					<fieldset>
-						<legend>
-							Connexion
-						</legend>
-						<form method='post' action='connexion.php'>
-							<input type='text' placeholder='Login' name='login'>
-							<input type='password' placeholder='Mot de passe' name='pwd'>
-							<input type='submit' value='Connexion'>
-						</form>
-						<?php
-							if(isset($_GET['error']) && !empty($_GET['error'])){
-								showErrorMessage($_GET['error']);
-							}
-						?>
-					</fieldset>
+					<?php
+						if(isset($_SESSION['login']) && $_SESSION['login']!= null){
+							echo "Bonjour ".$_SESSION['login'];
+					?>
+							<form method="post" action="deconnexion.php">
+								<input type="submit" value="Déconnexion">
+							</form>
+					<?php
+						}
+						else{
+					?>
+
+							<fieldset>
+								<legend>
+									Connexion
+								</legend>
+								<form method='post' action='connexion.php'>
+									<input type='text' placeholder='Login' name='login'>
+									<input type='password' placeholder='Mot de passe' name='pwd'>
+									<input type='submit' value='Connexion'>
+								</form>
+								<?php
+									if(isset($_GET['error']) && !empty($_GET['error'])){
+										showErrorMessage($_GET['error']);
+									}
+								?>
+							</fieldset>
+					<?php
+
+						}
+					?>
+						
+					
 				</div>
 			</header>
