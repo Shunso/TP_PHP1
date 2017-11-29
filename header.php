@@ -67,8 +67,8 @@
 				<a href="index.php">
 					<h1>Le Journal</h1>
 				</a>
-				<ul >
-					<li>Accueil</li>
-					<li>Article</li>
-					<li>Inscription</li>
-				</li>
+				<ul id="menuPrincipal">
+					<li><div><a href="index.php"><p>Accueil</p></a></div></li>
+					<li><div><a href="article.php"><div><p>Article</p></a></div></li>
+					<li><div><a href="inscription.php"><div><p>Inscription</p></a></div></li>
+				</ul>

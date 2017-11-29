@@ -1,8 +1,8 @@
 <?php
 	require('header.php');
 ?>
-				<h2>Cet homme fait du vélo, ce qu'il va faire ensuite va vous étonner</h2>
 				<div id="main">
+					<h2>Cet homme fait du vélo, ce qu'il va faire ensuite va vous étonner</h2>
 					<article id="mainArticle">
 						<div>
 							<img src="img/nageur.jpg" alt="Cycliste"/>
