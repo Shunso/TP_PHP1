@@ -12,16 +12,20 @@
 		<div id="corps">
 			<header>
 				<div class="article">
-					<h3>Titre 1</h3>
-					<p>
-						Aenean sit amet nibh eget lacus dictum auctor eu et magna. Nulla egestas varius eros vestibulum feugiat. Duis eros felis, gravida eu posuere in, molestie in elit. Nullam fringilla tortor sed arcu condimentum tincidunt. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eleifend dignissim ipsum.
-					</p>
+					<a href="article.php">
+						<h3>Titre 1</h3>
+						<p>
+							Aenean sit amet nibh eget lacus dictum auctor eu et magna. Nulla egestas varius eros vestibulum feugiat. Duis eros felis, gravida eu posuere in, molestie in elit. Nullam fringilla tortor sed arcu condimentum tincidunt. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eleifend dignissim ipsum.
+						</p>
+					</a>
 				</div>
 				<div class="article">
-					<h3>Titre 2</h3>
-					<p>
-						Aenean sit amet nibh eget lacus dictum auctor eu et magna. Nulla egestas varius eros vestibulum feugiat. Duis eros felis, gravida eu posuere in, molestie in elit. Nullam fringilla tortor sed arcu condimentum tincidunt. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eleifend dignissim ipsum.
-					</p>
+					<a href="article.php">
+						<h3>Titre 2</h3>
+						<p>
+							Aenean sit amet nibh eget lacus dictum auctor eu et magna. Nulla egestas varius eros vestibulum feugiat. Duis eros felis, gravida eu posuere in, molestie in elit. Nullam fringilla tortor sed arcu condimentum tincidunt. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eleifend dignissim ipsum.
+						</p>
+					</a>
 				</div>
 				<div>
 					<?php
@@ -59,3 +63,12 @@
 					
 				</div>
 			</header>
+			<div id="body">
+				<a href="index.php">
+					<h1>Le Journal</h1>
+				</a>
+				<ul >
+					<li>Accueil</li>
+					<li>Article</li>
+					<li>Inscription</li>
+				</li>

@@ -1,12 +1,8 @@
 <?php
 	require('header.php');
 ?>
-				<h2>Cet homme fait du vélo, ce qu'il va faire ensuite va vous étonner</h2>
 				<div id="main">
 					<article id="mainArticle">
-						<div>
-							<img src="img/nageur.jpg" alt="Cycliste"/>
-						</div>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed dui placerat, laoreet lorem ut, feugiat mauris. Proin bibendum nisl in sodales rhoncus. Cras sem dolor, elementum blandit tellus non, imperdiet pharetra libero. Pellentesque tempus augue felis, sit amet accumsan nunc efficitur eu. Duis eget tristique augue. Vivamus eget volutpat tortor. Praesent et orci gravida enim interdum gravida gravida id leo.
 
@@ -22,40 +18,6 @@
 							Nullam non ultrices nunc, quis lacinia sem. Etiam rutrum arcu vitae laoreet commodo. Proin ut iaculis quam, nec tempor ex. In hac habitasse platea dictumst. Duis id justo a nunc lacinia gravida vitae sed arcu. Cras in vehicula dui. Vivamus in lectus lorem. Nullam placerat lorem vitae justo molestie faucibus. Aliquam dictum, nulla vitae molestie lacinia, orci lorem euismod libero, eget interdum dolor urna id magna. Nulla pharetra lacus sed luctus sodales. Etiam consectetur ipsum non est blandit laoreet. Integer egestas ipsum id mollis ultrices. Pellentesque id posuere purus, eu feugiat eros. Duis odio ipsum, facilisis non pharetra sit amet, elementum ut lectus. Vivamus ultrices maximus tellus a pellentesque.
 						</p>
 					</article>
-					<nav id="sideMenu">
-						<div class="article">
-							<a href="article.php">
-								<h3>Titre 4</h3>
-								<p>
-									Aenean sit amet nibh eget lacus dictum auctor eu et magna. Nulla egestas varius eros vestibulum feugiat. Duis eros felis, gravida eu posuere in, molestie in elit. Nullam fringilla tortor sed arcu condimentum tincidunt. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eleifend dignissim ipsum.
-								</p>
-							</a>
-						</div>
-						<div class="article">
-							<a href="article.php">
-								<h3>Titre 5</h3>
-								<p>
-									Aenean sit amet nibh eget lacus dictum auctor eu et magna. Nulla egestas varius eros vestibulum feugiat. Duis eros felis, gravida eu posuere in, molestie in elit. Nullam fringilla tortor sed arcu condimentum tincidunt. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eleifend dignissim ipsum.
-								</p>
-							</a>
-						</div>
-						<div class="article">
-							<a href="article.php">
-								<h3>Titre 6</h3>
-								<p>
-									Aenean sit amet nibh eget lacus dictum auctor eu et magna. Nulla egestas varius eros vestibulum feugiat. Duis eros felis, gravida eu posuere in, molestie in elit. Nullam fringilla tortor sed arcu condimentum tincidunt. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eleifend dignissim ipsum.
-								</p>
-							</a>
-						</div>
-						<div class="article">
-							<a href="article.php">
-								<h3>Titre 7</h3>
-								<p>
-									Aenean sit amet nibh eget lacus dictum auctor eu et magna. Nulla egestas varius eros vestibulum feugiat. Duis eros felis, gravida eu posuere in, molestie in elit. Nullam fringilla tortor sed arcu condimentum tincidunt. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eleifend dignissim ipsum.
-								</p>
-							</a>
-						</div>
-					</nav>
 				</div>
 <?php
 	require('footer.php');
