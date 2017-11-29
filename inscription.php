@@ -5,7 +5,9 @@
 				<div id="main">
 					<form>
 						<label for="name">Nom : </label>
-						<input type="text" value="Name" id="name" />
+						<input type="text" value="name" id="name" />
+						<label for="name">Prénom : </label>
+						<input type="text" value="firstName" id="name" />
 					</form>
 				</div>
 <?php
